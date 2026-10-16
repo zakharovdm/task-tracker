@@ -1,0 +1,161 @@
+.workspace {
+  margin-top: 47px;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.filters {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.filters button {
+  background: transparent;
+  border: 0;
+  color: #85828d;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 9px 13px;
+  border-radius: 9px;
+}
+.filters button.selected {
+  background: #e9e6ff;
+  color: #5b4bca;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #9894a0;
+  border-bottom: 1px solid #dcd9d3;
+  padding: 8px 2px;
+  width: 205px;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  width: 100%;
+  font-size: 13px;
+  color: #333;
+}
+.task-list {
+  display: grid;
+  gap: 12px;
+}
+.task-card {
+  background: #fff;
+  border: 1px solid #ebe8e2;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  gap: 17px;
+  align-items: flex-start;
+  transition: 0.2s;
+}
+.task-card:hover {
+  border-color: #d7d1f9;
+  box-shadow: 0 8px 26px #3a306a0b;
+}
+.check {
+  margin-top: 2px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid #d8d4d0;
+  border-radius: 8px;
+  background: white;
+  color: #52b586;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  flex: none;
+}
+.task-card.done .check {
+  border-color: #52b586;
+  background: #52b586;
+  color: white;
+}
+.task-content {
+  min-width: 0;
+  flex: 1;
+}
+.task-topline {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.priority,
+.status {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+.priority.high {
+  color: #dd6c60;
+}
+.priority.medium {
+  color: #d69736;
+}
+.priority.low {
+  color: #579f7d;
+}
+.status {
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+.status.todo {
+  background: #f0eef0;
+  color: #827d85;
+}
+.status.progress {
+  background: #fff1df;
+  color: #bd8125;
+}
+.status.done {
+  background: #e6f7ed;
+  color: #459a70;
+}
+.task-card h2 {
+  font-size: 15px;
+  letter-spacing: -0.25px;
+  margin: 0 0 6px;
+}
+.task-card p {
+  margin: 0;
+  color: #888590;
+  font-size: 13px;
+  line-height: 1.55;
+}
+.date {
+  display: block;
+  margin-top: 13px;
+  color: #aaa6ae;
+  font-size: 11px;
+}
+.task-card > select {
+  border: 1px solid #e6e3df;
+  color: #77737d;
+  background: #fbfaf8;
+  border-radius: 8px;
+  padding: 7px;
+  font-size: 12px;
+  outline: none;
+}
+.empty {
+  text-align: center;
+  padding: 60px;
+  color: #958f9d;
+}
+.empty p {
+  margin: 13px 0 4px;
+  font-weight: 700;
+  color: #615d6b;
+}
+.empty span {
+  font-size: 13px;
+}

@@ -1,0 +1,76 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: #29243e66;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  z-index: 2;
+}
+.modal {
+  width: min(100%, 475px);
+  background: #fff;
+  border-radius: 20px;
+  padding: 31px;
+  position: relative;
+  box-shadow: 0 24px 70px #1d183b3d;
+}
+.close {
+  position: absolute;
+  right: 18px;
+  top: 14px;
+  border: 0;
+  background: transparent;
+  color: #8f8b95;
+  font-size: 28px;
+}
+.modal h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 31px;
+  letter-spacing: -1px;
+  margin: 0 0 26px;
+}
+.modal label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #575360;
+  margin-top: 16px;
+}
+.modal label span {
+  font-weight: 400;
+  color: #99949e;
+}
+.modal input,
+.modal textarea,
+.modal select {
+  display: block;
+  width: 100%;
+  border: 1px solid #e4e1dc;
+  border-radius: 9px;
+  margin-top: 7px;
+  padding: 11px 12px;
+  outline-color: #7667df;
+  background: #fff;
+  color: #332f3b;
+  font-size: 14px;
+  resize: vertical;
+}
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 26px;
+}
+.cancel-button {
+  border: 0;
+  background: transparent;
+  color: #77717f;
+  padding: 11px 14px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.submit-button {
+  padding: 12px 15px;
+}

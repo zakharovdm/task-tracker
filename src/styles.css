@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+@import './styles/base.css';
+@import './styles/layout.css';
+@import './styles/tasks.css';
+@import './styles/modal.css';
+@import './styles/responsive.css';
